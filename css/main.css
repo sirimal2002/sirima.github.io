@@ -1,0 +1,81 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("https://media.istockphoto.com/id/1997900524/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B8%AA%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%A2%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B8%84%E0%B9%8D%E0%B8%B2%E0%B8%96%E0%B8%B2%E0%B8%A1.jpg?s=2048x2048&w=is&k=20&c=MB7lLkQ_T6F9XTRl1aWcpf3GYcioSFZpeVR26TWtYAw=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  min-height: 100vh; /*view height*/
+  padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  width: 210px;
+  height: 210px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 10px 10px 0px 0px black;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px 24px; /*top-bottom , left-right*/
+  text-decoration: none;
+}
+
+.contact {
+  margin-bottom: 48px;
+}
+
+.contact-item {
+  margin-bottom: 4px;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.job {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 36px;
+  }
+}
